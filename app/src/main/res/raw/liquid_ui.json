@@ -1,0 +1,334 @@
+{
+  "type": "vertical_stack",
+  "padding": 12,
+  "children": [
+    {
+      "type": "carousel",
+      "autoScroll": true,
+      "children": [
+        {
+          "imageUrl": "https://cspdcl.co.in/cseb/files/mbc/slider_images/new_cashless_viewpager1.png",
+          "action": {
+            "type": "navigate_intent",
+            "screen": "com.example.app.OfferDetailsActivity",
+            "extras": {
+              "offer_id": "1"
+            }
+          }
+        },
+        {
+          "imageUrl": "https://cspdcl.co.in/cseb/files/mbc/slider_images/new_cashless_viewpager2.png",
+          "action": {
+            "type": "navigate_intent",
+            "screen": "com.example.app.OfferDetailsActivity",
+            "extras": {
+              "offer_id": "2"
+            }
+          }
+        },
+        {
+          "imageUrl": "https://cspdcl.co.in/cseb/files/mbc/slider_images/new_cashless_viewpager3.png",
+          "action": {
+            "type": "navigate_intent",
+            "screen": "com.example.app.OfferDetailsActivity",
+            "extras": {
+              "offer_id": "3"
+            }
+          }
+        },
+        {
+          "imageUrl": "https://cspdcl.co.in/cseb/files/mbc/slider_images/new_cashless_viewpager4.png",
+          "action": {
+            "type": "navigate_intent",
+            "screen": "com.example.app.OfferDetailsActivity",
+            "extras": {
+              "offer_id": "4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "imageUrl": "https://t4.ftcdn.net/jpg/03/99/55/57/360_F_399555768_facLZEz0rD5YhJxTO9Z2UEaH1r4sMams.jpg",
+      "title": "Prakash Majhi (Android Engineer)",
+      "action": {
+        "type": "navigate_intent",
+        "url": "com.example.apitesting.calnder_task.CalenderMyTask",
+        "screen": "com.example.apitesting.calnder_task.CalenderMyTask",
+        "extras": {
+          "key1": "value1",
+          "key2": "value2"
+        }
+      }
+    },
+    {
+      "type": "frame",
+      "children": [
+        {
+          "type": "banner",
+          "imageUrl": "https://cdn-icons-png.flaticon.com/512/190/190411.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/health-insurance"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Prakash Majhi (Android Engineer)",
+          "textSize": 16,
+          "textColor": "#FFFFFF",
+          "gravity": "center"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "text": "Money Transfers",
+      "textSize": 18,
+      "textColor": "#000000"
+    },
+    {
+      "type": "horizontal_list",
+      "children": [
+        {
+          "type": "circle_icon_button",
+          "title": "To Mobile",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/1048/1048938.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/mobile-transfer"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "To Bank",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/bank-transfer"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Check Balance",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3524/3524659.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/check-balance"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Scan QR",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/545/545705.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/scan-qr"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "History",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/history"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Offers",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/offers"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Electricity",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2622/2622634.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/electricity"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "DTH Recharge",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/dth"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Movies",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/5529/5529698.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/movies"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Groceries",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/grocery"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Travel",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2284/2284914.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/travel"
+          }
+        },
+        {
+          "type": "circle_icon_button",
+          "title": "Gold",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3534/3534035.png",
+          "action": {
+            "type": "navigate",
+            "url": "https://phonepe.com/gold"
+          }
+        }
+      ]
+    },
+    {
+      "type": "label_with_action",
+      "text": "Recharge & Bills",
+      "actionText": "View All",
+      "action": {
+        "type": "navigate",
+        "url": "https://phonepe.com/recharge-bills"
+      }
+    },
+    {
+      "type": "grid",
+      "columns": 4,
+      "children": [
+        {
+          "type": "icon_button",
+          "title": "Recharge",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/483/483947.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/recharge" }
+        },
+        {
+          "type": "icon_button",
+          "title": "Rent",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/rent" }
+        },
+        {
+          "type": "icon_button",
+          "title": "Electricity",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/609/609803.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/electricity" }
+        },
+        {
+          "type": "icon_button",
+          "title": "Loan EMI",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2329/2329424.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/loan-emi" }
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "columns": 2,
+      "children": [
+        {
+          "type": "icon_card",
+          "title": "Loans",
+          "subtitle": "Personal, Gold, More",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/4072/4072530.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/loans" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Insurance",
+          "subtitle": "Health, Car, Life",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3095/3095583.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/insurance" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Savings",
+          "subtitle": "Save Daily, SIP",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/1997/1997928.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/savings" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Travel",
+          "subtitle": "Flight, Train, Bus",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2331/2331970.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/travel" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Mutual Funds",
+          "subtitle": "Invest & Grow",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/mutualfunds" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Credit Cards",
+          "subtitle": "Apply Now",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/633/633611.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/creditcards" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Gold",
+          "subtitle": "Buy/Sell Digital Gold",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3534/3534035.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/gold" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Electricity Bill",
+          "subtitle": "Pay Bill",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2622/2622634.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/electricity" }
+        },
+        {
+          "type": "icon_card",
+          "title": "DTH Recharge",
+          "subtitle": "TV Recharge",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/dth" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Gas Booking",
+          "subtitle": "LPG, PNG",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/1032/1032835.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/gas" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Movie Tickets",
+          "subtitle": "Book Now",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/5529/5529698.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/movies" }
+        },
+        {
+          "type": "icon_card",
+          "title": "Groceries",
+          "subtitle": "Shop Online",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+          "action": { "type": "navigate", "url": "https://phonepe.com/grocery" }
+        }
+      ]
+    }
+  ]
+}
