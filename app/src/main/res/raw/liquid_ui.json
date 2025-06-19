@@ -3,6 +3,20 @@
   "padding": 12,
   "children": [
     {
+      "type": "banner",
+      "imageUrl": "https://t4.ftcdn.net/jpg/03/99/55/57/360_F_399555768_facLZEz0rD5YhJxTO9Z2UEaH1r4sMams.jpg",
+      "title": "Prakash Majhi (Android Engineer)",
+      "action": {
+        "type": "navigate_intent",
+        "url": "com.example.apitesting.calnder_task.CalenderMyTask",
+        "screen": "com.example.apitesting.calnder_task.CalenderMyTask",
+        "extras": {
+          "key1": "value1",
+          "key2": "value2"
+        }
+      }
+    },
+    {
       "type": "carousel",
       "autoScroll": true,
       "children": [
@@ -47,20 +61,6 @@
           }
         }
       ]
-    },
-    {
-      "type": "banner",
-      "imageUrl": "https://t4.ftcdn.net/jpg/03/99/55/57/360_F_399555768_facLZEz0rD5YhJxTO9Z2UEaH1r4sMams.jpg",
-      "title": "Prakash Majhi (Android Engineer)",
-      "action": {
-        "type": "navigate_intent",
-        "url": "com.example.apitesting.calnder_task.CalenderMyTask",
-        "screen": "com.example.apitesting.calnder_task.CalenderMyTask",
-        "extras": {
-          "key1": "value1",
-          "key2": "value2"
-        }
-      }
     },
     {
       "type": "frame",
@@ -242,7 +242,7 @@
     },
     {
       "type": "grid",
-      "columns": 2,
+      "columns": 3,
       "children": [
         {
           "type": "icon_card",
