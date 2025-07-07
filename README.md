@@ -74,3 +74,6 @@ The purpose of this project is to showcase how to build a **Server-Driven UI sys
    - Easily add new UI types (e.g., rating cards, offer tiles).
 
 ---
+
+8. **Indiaction**
+   - Typically it indicates that a new UI has been introduce and it will apply this automatically.
